@@ -1,0 +1,10 @@
+CREATE TABLE students(
+id INT PRIMARY KEY,
+name VARCHAR(200) NOT NULL,
+age int not null)
+--creates a table students with attributes id,name and age
+
+
+INSERT INTO students(id,name,age) VALUES
+(1,'jhon',20),(2,'sam',22),(3,'tom',21),(4,'ravi',21) 
+--inserted 4 values into table students
