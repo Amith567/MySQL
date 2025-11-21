@@ -1,0 +1,2 @@
+select name from students limit 2;  --display name of first two
+select name from students limit 2 offset 1;  --display name two person and skip first one
