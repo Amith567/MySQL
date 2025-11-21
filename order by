@@ -1,0 +1,2 @@
+select name from students order by name desc;  --display name in desenting order of name
+select name from students order by id asc;  --display name in ascenting order of id
