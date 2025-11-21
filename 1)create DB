@@ -1,0 +1,2 @@
+CREATE DATABASE learning; --creat a db learning
+USE learning;--use the db learning
