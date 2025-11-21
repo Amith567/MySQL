@@ -1,0 +1,6 @@
+update students
+set name='amith'
+where id=1;  --update name to amith in the field where id is 1
+
+update students
+set age=21;  --update all values to 21
