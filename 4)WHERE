@@ -1,0 +1,2 @@
+select name from students where age<22; --display name who have age less than 22
+select id from students where name='jhon'; --display id of person who have name jhon
