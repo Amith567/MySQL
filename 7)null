@@ -1,0 +1,2 @@
+select name where age is null;  --display name if age is null
+select name where age is not null;  --display name if age is not null
