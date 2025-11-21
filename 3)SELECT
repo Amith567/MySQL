@@ -1,0 +1,4 @@
+select * from students;  --display all rows and columns 
+select name,age from students;  --display name and age column only
+select distinct age from students;  --display one age one time only
+select count(id) from students;  --display count of no of id 
