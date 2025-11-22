@@ -1,0 +1,6 @@
+select * from students where name like 'a%';
+select * from students where name like '%d';
+select * from students where name like 'a%a';
+select * from students where name like '%a%';
+select * from students where name like 'a___%';
+select * from students where name regexp '^[a-g]';
