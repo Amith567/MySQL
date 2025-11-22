@@ -1,0 +1,2 @@
+select * from students where id in (2,4,5);
+select * from students where id in (select id from students where age<22);
