@@ -1,0 +1,25 @@
+create database two_table;
+use two_table;
+
+create table sale_24 (product_id int primary key,
+no_of_sale int,
+profit int);
+insert into sale_24(product_id,no_of_sale,profit) values
+(1,23,32344),
+(3,3,53434),
+(5,34,1023);
+select * from sale_24;
+
+create table sale_25 (
+product_id int primary key,
+no_of_sale int,
+profit int);
+insert into sale_25 (product_id,no_of_sale,profit) values
+(1,34,4342),(2,534,5),(5,344,-4);
+
+select * from sale_25;
+
+select product_id as product,no_of_sale as total,profit as money from sale_24
+union all
+select product_id,no_of_sale,profit from sale_25
+order by product;
